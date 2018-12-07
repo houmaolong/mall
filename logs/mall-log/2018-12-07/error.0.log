@@ -1,0 +1,2 @@
+[ERROR] 2018-12-07 13:18:04.227 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '15999772690' for key 'UK_dnq7r8jcmlft7l8l4j79l1h74'
+[ERROR] 2018-12-07 13:18:04.231 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
