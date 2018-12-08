@@ -1,2 +1,36 @@
 [ERROR] 2018-12-07 13:18:04.227 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '15999772690' for key 'UK_dnq7r8jcmlft7l8l4j79l1h74'
 [ERROR] 2018-12-07 13:18:04.231 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+[ERROR] 2018-12-07 17:53:53.222 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '15999772690' for key 'UK_dnq7r8jcmlft7l8l4j79l1h74'
+[ERROR] 2018-12-07 17:53:53.226 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+[ERROR] 2018-12-07 18:12:12.240 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '15999772691' for key 'UK_dnq7r8jcmlft7l8l4j79l1h74'
+[ERROR] 2018-12-07 18:12:12.243 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+[ERROR] 2018-12-07 21:49:24.595 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'user' at row 1
+[ERROR] 2018-12-07 21:49:24.600 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+[ERROR] 2018-12-07 21:57:56.132 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry 'oo8WK5WRoibQONTdJPpdrHpJY07s' for key 'UK_bpouh13r5970grppm1u0a5lu'
+[ERROR] 2018-12-07 21:57:56.136 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+[ERROR] 2018-12-07 22:05:00.571 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry 'oo8WK5WRoibQONTdJPpdrHpJY07s' for key 'UK_bpouh13r5970grppm1u0a5lu'
+[ERROR] 2018-12-07 22:05:00.578 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+[ERROR] 2018-12-07 22:05:53.235 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'user' at row 1
+[ERROR] 2018-12-07 22:05:53.239 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+[ERROR] 2018-12-07 22:07:38.267 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry 'oo8WK5WRoibQONTdJPpdrHpJY07s' for key 'UK_bpouh13r5970grppm1u0a5lu'
+[ERROR] 2018-12-07 22:07:38.269 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+[ERROR] 2018-12-07 22:21:51.773 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'user' at row 1
+[ERROR] 2018-12-07 22:21:51.776 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+[ERROR] 2018-12-07 22:25:40.178 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'user' at row 1
+[ERROR] 2018-12-07 22:25:40.181 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+[ERROR] 2018-12-07 22:29:38.493 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'user' at row 1
+[ERROR] 2018-12-07 22:29:38.498 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+[ERROR] 2018-12-07 22:34:40.097 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'user' at row 1
+[ERROR] 2018-12-07 22:34:40.101 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+[ERROR] 2018-12-07 22:43:06.275 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'user' at row 1
+[ERROR] 2018-12-07 22:43:06.278 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+[ERROR] 2018-12-07 22:53:42.738 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'user' at row 1
+[ERROR] 2018-12-07 22:53:42.741 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+[ERROR] 2018-12-07 22:54:57.045 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'user' at row 1
+[ERROR] 2018-12-07 22:54:57.048 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+[ERROR] 2018-12-07 22:59:27.431 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'user' at row 1
+[ERROR] 2018-12-07 22:59:27.434 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+[ERROR] 2018-12-07 23:00:35.197 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'user' at row 1
+[ERROR] 2018-12-07 23:00:35.201 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+[ERROR] 2018-12-07 23:02:28.738 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'user' at row 1
+[ERROR] 2018-12-07 23:02:28.741 [main] o.h.i.ExceptionMapperStandardImpl - HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]

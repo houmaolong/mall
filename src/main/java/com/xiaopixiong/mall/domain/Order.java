@@ -17,7 +17,7 @@ import javax.persistence.Id;
  *
  */
 @Entity
-public class User implements Serializable {
+public class Order implements Serializable {
 	/**
 	 * 用户状态
 	 */
