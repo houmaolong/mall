@@ -1,17 +1,15 @@
 package com.xiaopixiong.mall.domain;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.Date;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
- * 用户
+ * 订单
  * 
  * @author houmaolong
  *
@@ -19,13 +17,17 @@ import javax.persistence.Id;
 @Entity
 public class Order implements Serializable {
 	/**
-	 * 用户状态
+	 * 订单状态
 	 */
-	public static enum UserState {
-		DEFAULT("默认"),
-		CANCEL("注销"); 
+	public static enum OrderState {
+		Closed("订单关闭"),
+		ToPaiding("待支付"),
+		ToShipped("待发货"),
+		ShipmentToConfirmed("已发货待确认"),
+		ToEvaluated("待评价"),
+		Success("交易成功"); 
 		private String name;
-		private UserState(String name) {
+		private OrderState(String name) {
 			this.name = name;
 		}
 
@@ -47,146 +49,70 @@ public class Order implements Serializable {
 	@GeneratedValue
 	private Long id;
 	/**
-	 * 手机或邮箱
+	 * 用户标识
 	 */
-	private String account;
+	private Long userId;
 	/**
-	 * 微信
+	 * 店铺标识
 	 */
-	@Column(unique = true, nullable = false)
-	private String openid;
+	private Long shopId;
 	/**
-	 * 昵称
+	 * 订单号
 	 */
-	private String nickName;
+	private String orderNum;
 	/**
-	 * 省份
+	 * 订单状态
 	 */
-	private String provice;
+	private OrderState orderState=OrderState.ToPaiding;
 	/**
-	 * 城市
+	 * 支付金额
 	 */
-	private String city;
+	private BigDecimal payment;
 	/**
-	 * 头像
+	 * 支付时间
 	 */
-	private String headIcon;
-	/**
-	 * 注册时间
-	 */
-	private Date registerDate;
-	/**
-	 * 注册IP
-	 */
-	private String registerIp;
-	/**
-	 * 登录时间
-	 */
-	private Date loginDate;
-	/**
-	 * 登录IP
-	 */
-	private String loginIp;
-	/**
-	 * 用户状态
-	 */
-	@Enumerated(EnumType.STRING)
-	private UserState userState = UserState.DEFAULT;
-
+	private Date paymentTime;
 	public Long getId() {
 		return id;
 	}
-
 	public void setId(Long id) {
 		this.id = id;
 	}
-
-	public String getAccount() {
-		return account;
+	public Long getUserId() {
+		return userId;
 	}
-
-	public void setAccount(String account) {
-		this.account = account;
+	public void setUserId(Long userId) {
+		this.userId = userId;
 	}
-
-	public String getOpenid() {
-		return openid;
+	public Long getShopId() {
+		return shopId;
 	}
-
-	public void setOpenid(String openid) {
-		this.openid = openid;
+	public void setShopId(Long shopId) {
+		this.shopId = shopId;
 	}
-
-	public String getNickName() {
-		return nickName;
+	public String getOrderNum() {
+		return orderNum;
 	}
-
-	public void setNickName(String nickName) {
-		this.nickName = nickName;
+	public void setOrderNum(String orderNum) {
+		this.orderNum = orderNum;
 	}
-
-	public String getProvice() {
-		return provice;
+	public OrderState getOrderState() {
+		return orderState;
 	}
-
-	public void setProvice(String provice) {
-		this.provice = provice;
+	public void setOrderState(OrderState orderState) {
+		this.orderState = orderState;
 	}
-
-	public String getCity() {
-		return city;
+	public BigDecimal getPayment() {
+		return payment;
 	}
-
-	public void setCity(String city) {
-		this.city = city;
+	public void setPayment(BigDecimal payment) {
+		this.payment = payment;
 	}
-
-	public String getHeadIcon() {
-		return headIcon;
+	public Date getPaymentTime() {
+		return paymentTime;
 	}
-
-	public void setHeadIcon(String headIcon) {
-		this.headIcon = headIcon;
+	public void setPaymentTime(Date paymentTime) {
+		this.paymentTime = paymentTime;
 	}
-
-	public Date getRegisterDate() {
-		return registerDate;
-	}
-
-	public void setRegisterDate(Date registerDate) {
-		this.registerDate = registerDate;
-	}
-
-	public Date getLoginDate() {
-		return loginDate;
-	}
-
-	public void setLoginDate(Date loginDate) {
-		this.loginDate = loginDate;
-	}
-
-	public String getRegisterIp() {
-		return registerIp;
-	}
-
-	public void setRegisterIp(String registerIp) {
-		this.registerIp = registerIp;
-	}
-
-	public String getLoginIp() {
-		return loginIp;
-	}
-
-	public void setLoginIp(String loginIp) {
-		this.loginIp = loginIp;
-	}
-
-	public UserState getUserState() {
-		return userState;
-	}
-
-	public void setUserState(UserState userState) {
-		this.userState = userState;
-	}
-
+	
 }
