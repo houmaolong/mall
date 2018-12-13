@@ -15,7 +15,7 @@ import com.xiaopixiong.mall.domain.Address;
  *
  */
 public interface AddressDao extends Repository<Address, Long> {
-	@Query("from Address a where a.userId=:userId")
+	@Query("from Address a where a.user.id=:userId")
 	List<Address> findByUserId(@Param("userId")Long userId);
 
 	void save(Address address);

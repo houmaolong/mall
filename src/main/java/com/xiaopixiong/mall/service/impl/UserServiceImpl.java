@@ -39,7 +39,6 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public void addAddress(Long userId, Address address) {
-		address.setUserId(userId);
 		addressDao.save(address);
 	}
 	

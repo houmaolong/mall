@@ -3,10 +3,12 @@ package com.xiaopixiong.mall.domain;
 import java.io.Serializable;
 import java.util.Date;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 /**
  * 用户
@@ -22,12 +24,12 @@ public class Address implements Serializable {
 	 * 编号
 	 */
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
-	/**
-	 * 用户标识
-	 */
-	private Long userId;
+	
+	@ManyToOne
+	@JoinColumn(name = "userId")
+	private User user;
 	/**
 	 * 是否默认地址
 	 */
@@ -121,13 +123,12 @@ public class Address implements Serializable {
 		this.modifyDate = modifyDate;
 	}
 
-	@Column(nullable = false)
-	public Long getUserId() {
-		return userId;
+	public User getUser() {
+		return user;
 	}
 
-	public void setUserId(Long userId) {
-		this.userId = userId;
+	public void setUser(User user) {
+		this.user = user;
 	}
 
 }

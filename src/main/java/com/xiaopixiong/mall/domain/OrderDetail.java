@@ -5,7 +5,10 @@ import java.math.BigDecimal;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 /**
  * 订单
@@ -22,12 +25,14 @@ public class OrderDetail implements Serializable {
 	 * 编号
 	 */
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	/**
 	 * 订单标识
 	 */
-	private Long orderId;
+	@ManyToOne
+	@JoinColumn(name="orderId")
+	private Order order;
 	/**
 	 * 商品标识
 	 */
@@ -58,11 +63,12 @@ public class OrderDetail implements Serializable {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public Long getOrderId() {
-		return orderId;
+	
+	public Order getOrder() {
+		return order;
 	}
-	public void setOrderId(Long orderId) {
-		this.orderId = orderId;
+	public void setOrder(Order order) {
+		this.order = order;
 	}
 	public Long getCommodityId() {
 		return commodityId;

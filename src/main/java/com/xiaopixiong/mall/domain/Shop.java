@@ -3,8 +3,13 @@ package com.xiaopixiong.mall.domain;
 import java.io.Serializable;
 
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 /**
  * 店铺
@@ -22,8 +27,14 @@ public class Shop implements Serializable {
 	 * 编号
 	 */
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
+	/**
+	 * 用户
+	 */
+	@ManyToOne
+	@JoinColumn(name = "userId")
+	private User user;
 	/**
 	 * 是否启用
 	 */
@@ -108,6 +119,7 @@ public class Shop implements Serializable {
 	/**
 	 * 店铺类型
 	 */
+	@Enumerated(EnumType.STRING)
 	private ShopType shopType = ShopType.FRESH;
 
 	public Long getId() {
@@ -244,6 +256,14 @@ public class Shop implements Serializable {
 
 	public void setEnabled(Boolean enabled) {
 		this.enabled = enabled;
+	}
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
 	}
 
 }

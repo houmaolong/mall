@@ -5,7 +5,10 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
@@ -24,7 +27,7 @@ public class Commodity implements Serializable {
 	 * 编号
 	 */
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	/**
 	 * 店铺
@@ -101,6 +104,7 @@ public class Commodity implements Serializable {
 	/**
 	 * 分享奖励类型
 	 */
+	@Enumerated(EnumType.STRING)
 	private SharingType sharingType =SharingType.Closed;
 	/**
 	 * 分享奖励

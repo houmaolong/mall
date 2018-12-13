@@ -6,7 +6,10 @@ import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 /**
  * 物流模板
@@ -22,8 +25,14 @@ public class Shipping implements Serializable {
 	 * 编号
 	 */
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
+	/**
+	 * 店铺
+	 */
+	@JoinColumn(name = "shopId")
+	@ManyToOne
+	private Shop shop;
 	/**
 	 * 名称
 	 */
@@ -35,10 +44,12 @@ public class Shipping implements Serializable {
 	/**
 	 * 计价方式
 	 */
+	@Enumerated(EnumType.STRING)
 	private ValuationType valuationType = ValuationType.NUMBER;
 	/**
 	 * 运送方式
 	 */
+	@Enumerated(EnumType.STRING)
 	private DeliveryType deliveryType;
 
 	public static enum ValuationType {
@@ -101,7 +112,6 @@ public class Shipping implements Serializable {
 		this.free = free;
 	}
 
-	@Enumerated(EnumType.STRING)
 	public ValuationType getValuationType() {
 		return valuationType;
 	}
@@ -110,13 +120,20 @@ public class Shipping implements Serializable {
 		this.valuationType = valuationType;
 	}
 
-	@Enumerated(EnumType.STRING)
 	public DeliveryType getDeliveryType() {
 		return deliveryType;
 	}
 
 	public void setDeliveryType(DeliveryType deliveryType) {
 		this.deliveryType = deliveryType;
+	}
+
+	public Shop getShop() {
+		return shop;
+	}
+
+	public void setShop(Shop shop) {
+		this.shop = shop;
 	}
 
 }
