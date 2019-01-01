@@ -1,0 +1,806 @@
+[INFO ] 2018-12-13 20:49:05.029 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 20:49:05.056 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 20:49:05.059 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 20:49:05.524 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 20:49:05.994 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 20:49:06.051 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 20:49:06.882 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 7260 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 20:49:06.883 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 20:49:08.024 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:49:08.030 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:49:08.153 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 20:49:08.156 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 20:49:08.157 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 113ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 20:49:08.182 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:49:08.186 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:49:08.553 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 360ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 20:49:08.584 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:49:08.587 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:49:08.642 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 20:49:08.642 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 20:49:08.642 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 20:49:10.318 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 20:49:10.557 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 20:49:10.562 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 20:49:11.027 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 20:49:11.797 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 20:49:13.336 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2018-12-13 20:49:13.399 [main] o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000422: Disabling contextual LOB creation as connection was null
+[INFO ] 2018-12-13 20:49:16.314 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 20:49:17.408 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-13 20:49:17.706 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 7260 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 20:49:17.709 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 20:49:18.237 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:49:18.238 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:49:18.280 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 20:49:18.281 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 20:49:18.283 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 20:49:18.294 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:49:18.294 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:49:18.402 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 108ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 20:49:18.406 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:49:18.407 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:49:18.445 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 20:49:18.445 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 20:49:18.446 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 20:49:19.505 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 20:49:19.533 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2018-12-13 20:49:20.561 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2018-12-13 20:49:20.591 [main] o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000422: Disabling contextual LOB creation as connection was null
+[INFO ] 2018-12-13 20:49:20.793 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2018-12-13 20:49:21.884 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-13 20:56:17.792 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 20:56:17.809 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 20:56:17.811 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 20:56:18.120 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 20:56:18.475 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 20:56:18.528 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 20:56:19.279 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 7208 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 20:56:19.280 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 20:56:20.351 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:56:20.356 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:56:20.449 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 20:56:20.454 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 20:56:20.454 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 20:56:20.479 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:56:20.485 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:56:20.764 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 270ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 20:56:20.792 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:56:20.795 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:56:20.841 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 20:56:20.842 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 20:56:20.842 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 20:56:22.403 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 20:56:22.649 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 20:56:22.656 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 20:56:23.137 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 20:56:23.930 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 20:56:25.420 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2018-12-13 20:56:25.482 [main] o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000422: Disabling contextual LOB creation as connection was null
+[INFO ] 2018-12-13 20:56:28.459 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 20:56:29.527 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-13 20:56:29.890 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 7208 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 20:56:29.894 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 20:56:30.541 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:56:30.542 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:56:30.601 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 20:56:30.602 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 20:56:30.603 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 20:56:30.617 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:56:30.617 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:56:30.754 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 137ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 20:56:30.765 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:56:30.766 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:56:30.849 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 20:56:30.850 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 20:56:30.850 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 20:56:31.662 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 20:56:31.729 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2018-12-13 20:56:32.748 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2018-12-13 20:56:32.753 [main] o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000422: Disabling contextual LOB creation as connection was null
+[INFO ] 2018-12-13 20:56:33.019 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2018-12-13 20:56:34.080 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-13 20:58:16.650 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 20:58:16.667 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 20:58:16.669 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 20:58:16.924 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 20:58:17.254 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 20:58:17.316 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 20:58:18.156 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 11120 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 20:58:18.158 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 20:58:19.576 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:58:19.583 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:58:19.700 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 20:58:19.704 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 20:58:19.705 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 110ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 20:58:19.729 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:58:19.735 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:58:20.038 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 297ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 20:58:20.068 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:58:20.070 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:58:20.127 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 20:58:20.128 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 20:58:20.128 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 20:58:22.162 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 20:58:22.346 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 20:58:22.352 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 20:58:22.757 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 20:58:23.583 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 20:58:23.913 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 20:58:23.945 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2018-12-13 20:58:26.415 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@37314843'
+[INFO ] 2018-12-13 20:58:26.424 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 20:58:27.269 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 20:58:30.517 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 13.008 seconds (JVM running for 16.063)
+[INFO ] 2018-12-13 20:58:30.903 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 20:58:30.911 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 20:58:30.930 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 20:59:26.950 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 20:59:26.965 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 20:59:26.967 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 20:59:27.203 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 20:59:27.478 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 20:59:27.524 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 20:59:28.290 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 5088 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 20:59:28.292 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 20:59:29.514 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:59:29.520 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:59:29.629 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 20:59:29.634 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 20:59:29.635 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 20:59:29.660 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:59:29.665 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:59:29.940 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 269ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 20:59:29.968 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 20:59:29.970 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 20:59:30.021 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 20:59:30.022 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 20:59:30.022 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 20:59:31.463 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 20:59:31.665 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 20:59:31.671 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 20:59:32.073 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 20:59:32.832 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 20:59:33.118 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 20:59:33.153 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2018-12-13 20:59:35.407 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@407b8435'
+[INFO ] 2018-12-13 20:59:35.418 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 20:59:36.231 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 20:59:39.272 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 11.64 seconds (JVM running for 14.414)
+[INFO ] 2018-12-13 20:59:39.899 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 20:59:39.912 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 20:59:39.934 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:00:10.264 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:00:10.281 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:00:10.283 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:00:10.530 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:00:10.812 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:00:10.857 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:00:11.805 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 10020 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:00:11.806 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:00:12.889 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:00:12.893 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:00:13.003 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:00:13.006 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:00:13.007 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:00:13.028 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:00:13.032 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:00:13.325 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 287ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:00:13.351 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:00:13.353 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:00:13.399 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:00:13.400 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:00:13.400 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:00:14.999 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:00:15.177 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:00:15.182 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:00:15.596 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:00:16.324 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:00:16.609 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:00:16.643 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2018-12-13 21:00:19.320 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@407b8435'
+[INFO ] 2018-12-13 21:00:19.329 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:00:20.037 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:00:23.505 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 12.541 seconds (JVM running for 15.506)
+[INFO ] 2018-12-13 21:00:23.798 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:00:23.812 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:00:23.834 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:02:22.925 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:02:22.943 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:02:22.945 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:02:23.180 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:02:23.480 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:02:23.522 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:02:24.319 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 14144 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:02:24.320 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:02:25.396 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:02:25.401 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:02:25.517 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:02:25.521 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:02:25.523 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:02:25.548 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:02:25.553 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:02:25.842 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 282ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:02:25.871 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:02:25.873 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:02:25.921 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:02:25.923 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:02:25.924 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:02:27.588 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:02:27.786 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:02:27.791 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:02:28.246 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:02:30.055 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:02:30.647 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:02:30.681 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2018-12-13 21:02:33.936 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@69f080ad'
+[INFO ] 2018-12-13 21:02:33.947 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:02:35.099 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:02:38.142 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 14.524 seconds (JVM running for 17.219)
+[INFO ] 2018-12-13 21:02:38.500 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:02:38.521 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:02:38.551 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:04:48.894 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:04:48.912 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:04:48.915 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:04:49.168 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:04:49.491 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:04:49.549 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:04:50.303 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 19064 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:04:50.305 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:04:51.414 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:04:51.419 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:04:51.531 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:04:51.535 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:04:51.537 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:04:51.561 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:04:51.565 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:04:51.845 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 274ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:04:51.872 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:04:51.874 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:04:51.925 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:04:51.926 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:04:51.926 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:04:53.448 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:04:53.654 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:04:53.660 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:04:54.075 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:04:54.851 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:04:55.129 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:04:55.162 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2018-12-13 21:04:57.537 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6e685e6c'
+[INFO ] 2018-12-13 21:04:57.543 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:04:58.255 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:05:01.383 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 11.718 seconds (JVM running for 14.798)
+[INFO ] 2018-12-13 21:05:01.778 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:05:01.785 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:05:01.801 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:08:41.712 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:08:41.727 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:08:41.730 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:08:41.996 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:08:42.296 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:08:42.345 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:08:43.051 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 4620 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:08:43.053 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:08:44.155 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:08:44.161 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:08:44.267 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:08:44.271 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:08:44.272 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:08:44.295 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:08:44.300 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:08:44.581 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 275ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:08:44.606 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:08:44.609 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:08:44.658 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:08:44.659 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:08:44.659 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:08:46.127 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:08:46.316 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:08:46.322 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:08:46.737 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:08:47.507 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:08:47.786 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:08:47.818 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:08:50.976 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5b0902b4'
+[INFO ] 2018-12-13 21:08:50.990 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:08:51.837 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:08:54.821 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 12.372 seconds (JVM running for 15.137)
+[INFO ] 2018-12-13 21:08:55.201 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:08:55.226 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:08:55.255 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:12:04.595 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:12:04.614 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:12:04.616 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:12:04.852 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:12:05.159 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:12:05.205 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:12:05.947 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 11736 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:12:05.948 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:12:07.031 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:12:07.039 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:12:07.141 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:12:07.145 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:12:07.147 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:12:07.170 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:12:07.175 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:12:07.451 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 270ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:12:07.477 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:12:07.480 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:12:07.526 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:12:07.527 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:12:07.527 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:12:09.024 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:12:09.208 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:12:09.214 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:12:09.615 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:12:10.364 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:12:10.645 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:12:10.678 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:12:13.587 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3e9beef2'
+[INFO ] 2018-12-13 21:12:13.595 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:12:14.347 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:12:17.332 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 12.032 seconds (JVM running for 14.676)
+[INFO ] 2018-12-13 21:12:17.721 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:12:17.732 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:12:17.760 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:20:18.570 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:20:18.586 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:20:18.588 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:20:18.916 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:20:19.248 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:20:19.304 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:20:20.137 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 8448 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:20:20.139 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:20:21.487 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:20:21.492 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:20:21.615 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:20:21.619 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:20:21.621 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:20:21.654 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:20:21.658 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:20:22.008 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 343ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:20:22.043 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:20:22.045 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:20:22.103 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:20:22.104 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:20:22.104 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:20:24.016 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:20:24.229 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:20:24.237 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:20:24.745 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:20:25.602 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:20:25.935 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:20:25.969 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:20:29.600 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4c7d7430'
+[INFO ] 2018-12-13 21:20:29.610 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:20:30.542 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:20:30.768 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:20:30.776 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:20:30.791 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:20:30.806 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-13 21:20:31.263 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 8448 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:20:31.264 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:20:31.826 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:20:31.827 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:20:31.877 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:20:31.878 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:20:31.879 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:20:31.887 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:20:31.887 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:20:32.044 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 157ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:20:32.057 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:20:32.058 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:20:32.110 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:20:32.111 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:20:32.112 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:20:32.836 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:20:32.872 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2018-12-13 21:20:32.881 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2018-12-13 21:20:32.882 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:20:34.185 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4c7d7430'
+[INFO ] 2018-12-13 21:20:34.187 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:20:34.435 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:20:34.446 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:20:34.449 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2018-12-13 21:20:34.476 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2018-12-13 21:20:34.479 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-13 21:21:26.775 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:21:26.795 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:21:26.797 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:21:27.077 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:21:27.409 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:21:27.465 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:21:28.345 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 10936 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:21:28.347 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:21:29.610 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:21:29.618 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:21:29.731 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:21:29.736 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:21:29.737 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:21:29.764 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:21:29.769 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:21:30.071 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 296ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:21:30.102 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:21:30.104 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:21:30.157 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:21:30.158 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:21:30.158 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:21:31.963 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:21:32.173 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:21:32.181 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:21:32.662 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:21:33.439 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:21:33.763 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:21:33.800 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:21:37.194 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@40d96578'
+[INFO ] 2018-12-13 21:21:37.202 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:21:37.979 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:21:38.190 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:21:38.198 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:21:38.215 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:21:38.231 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-13 21:21:38.551 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 10936 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:21:38.553 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:21:39.138 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:21:39.142 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:21:39.217 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:21:39.219 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:21:39.221 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:21:39.231 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:21:39.232 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:21:39.380 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 148ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:21:39.386 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:21:39.387 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:21:39.446 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:21:39.447 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:21:39.447 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:21:40.151 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:21:40.197 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2018-12-13 21:21:40.215 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2018-12-13 21:21:40.216 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:21:41.561 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@40d96578'
+[INFO ] 2018-12-13 21:21:41.562 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:21:41.854 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:21:41.875 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:21:41.878 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2018-12-13 21:21:41.899 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2018-12-13 21:21:41.901 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-13 21:26:14.212 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:26:14.234 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:26:14.236 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:26:14.510 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:26:14.851 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:26:14.905 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:26:15.767 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 15756 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:26:15.769 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:26:17.026 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:26:17.035 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:26:17.148 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:26:17.154 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:26:17.155 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 107ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:26:17.183 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:26:17.187 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:26:17.489 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 295ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:26:17.520 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:26:17.522 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:26:17.579 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:26:17.582 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:26:17.582 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:26:19.288 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:26:19.488 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:26:19.494 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:26:19.975 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:26:20.759 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:26:21.077 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:26:21.112 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:26:24.748 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3dfd7eaa'
+[INFO ] 2018-12-13 21:26:24.756 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:26:25.590 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:26:25.832 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:26:25.840 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:26:25.855 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:26:25.871 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-13 21:26:26.276 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 15756 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:26:26.277 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:26:26.924 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:26:26.926 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:26:26.998 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:26:27.004 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:26:27.006 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:26:27.014 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:26:27.023 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:26:27.173 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 148ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:26:27.180 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:26:27.180 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:26:27.227 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:26:27.228 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:26:27.229 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:26:27.903 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:26:27.951 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2018-12-13 21:26:27.966 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2018-12-13 21:26:27.966 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:26:29.490 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3dfd7eaa'
+[INFO ] 2018-12-13 21:26:29.491 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:26:29.798 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:26:29.811 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:26:29.815 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2018-12-13 21:26:29.833 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2018-12-13 21:26:29.837 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-13 21:28:19.000 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:28:19.020 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:28:19.022 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:28:19.285 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:28:19.582 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:28:19.636 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:28:20.356 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 14052 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:28:20.358 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:28:21.428 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:28:21.434 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:28:21.544 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:28:21.548 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:28:21.549 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 104ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:28:21.574 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:28:21.578 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:28:21.913 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 328ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:28:21.948 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:28:21.951 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:28:22.014 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:28:22.016 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:28:22.016 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:28:23.460 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:28:23.641 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:28:23.647 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:28:24.051 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:28:24.791 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:28:25.073 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:28:25.108 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:28:28.260 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@40d96578'
+[INFO ] 2018-12-13 21:28:28.268 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:28:28.991 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:28:31.885 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 12.131 seconds (JVM running for 15.058)
+[INFO ] 2018-12-13 21:28:32.226 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:28:32.238 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:28:32.272 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:29:43.937 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:29:43.959 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:29:43.963 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:29:44.209 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:29:44.486 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:29:44.532 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:29:45.259 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 5244 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:29:45.261 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:29:46.374 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:29:46.379 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:29:46.492 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:29:46.496 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:29:46.498 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 110ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:29:46.521 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:29:46.525 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:29:46.806 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 274ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:29:46.834 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:29:46.836 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:29:46.885 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:29:46.886 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:29:46.886 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:29:48.388 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:29:48.578 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:29:48.584 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:29:49.015 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:29:49.812 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:29:50.105 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:29:50.138 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:29:53.569 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5f0f70c7'
+[INFO ] 2018-12-13 21:29:53.576 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:29:54.337 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:29:57.679 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 13.045 seconds (JVM running for 15.748)
+[INFO ] 2018-12-13 21:29:58.336 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:29:58.345 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:29:58.363 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:33:46.915 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:33:46.935 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:33:46.938 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:33:47.195 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:33:47.487 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:33:47.539 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:33:48.304 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 2628 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:33:48.306 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:33:49.449 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:33:49.455 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:33:49.564 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:33:49.569 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:33:49.571 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 104ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:33:49.602 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:33:49.607 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:33:49.901 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 287ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:33:49.931 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:33:49.934 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:33:49.982 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:33:49.983 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:33:49.983 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:33:51.627 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:33:51.845 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:33:51.850 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:33:52.295 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:33:53.018 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:33:53.299 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:33:53.333 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:33:56.608 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6206b4a7'
+[INFO ] 2018-12-13 21:33:56.614 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:33:57.374 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:34:01.098 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 13.451 seconds (JVM running for 16.277)
+[INFO ] 2018-12-13 21:34:01.511 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:34:01.535 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:34:01.572 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:35:44.846 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:35:44.865 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:35:44.866 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:35:45.113 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:35:45.461 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:35:45.516 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:35:46.404 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 19304 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:35:46.405 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:35:47.537 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:35:47.543 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:35:47.648 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:35:47.651 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:35:47.653 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:35:47.676 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:35:47.680 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:35:47.953 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 267ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:35:47.981 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:35:47.983 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:35:48.029 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:35:48.030 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:35:48.030 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:35:49.577 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:35:49.815 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:35:49.821 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:35:50.284 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:35:51.035 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:35:51.309 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:35:51.342 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:35:54.184 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@71789580'
+[INFO ] 2018-12-13 21:35:54.194 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:35:55.074 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:35:58.181 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 12.571 seconds (JVM running for 15.499)
+[INFO ] 2018-12-13 21:35:58.742 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:35:58.751 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:35:58.762 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:46:53.295 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:46:53.314 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:46:53.317 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:46:53.557 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:46:53.842 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:46:53.890 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:46:54.627 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 13972 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:46:54.629 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:46:55.753 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:46:55.758 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:46:55.866 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:46:55.869 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:46:55.871 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:46:55.899 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:46:55.903 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:46:56.192 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 283ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:46:56.220 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:46:56.223 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:46:56.270 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:46:56.271 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:46:56.271 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:46:57.842 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:46:58.056 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:46:58.062 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:46:58.501 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:46:59.263 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:46:59.593 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:46:59.633 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:47:02.827 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2aa5bd48'
+[INFO ] 2018-12-13 21:47:02.835 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:47:03.649 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:47:07.082 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 13.094 seconds (JVM running for 15.944)
+[INFO ] 2018-12-13 21:47:07.512 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:47:07.523 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:47:07.544 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-13 21:48:24.853 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xiaopixiong.mall.MallApplicationTests], using SpringBootContextLoader
+[INFO ] 2018-12-13 21:48:24.871 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.xiaopixiong.mall.MallApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2018-12-13 21:48:24.873 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaopixiong.mall.MallApplicationTests]: MallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2018-12-13 21:48:25.120 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaopixiong.mall.MallApplication for test class com.xiaopixiong.mall.MallApplicationTests
+[INFO ] 2018-12-13 21:48:25.438 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-12-13 21:48:25.501 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f3b248, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b1426f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32b260fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@581ac8a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d4e5011, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57d7f8ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76c3e77a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@78123e82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67c33749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fba92d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662b4c69]
+[INFO ] 2018-12-13 21:48:26.248 [main] c.x.mall.MallApplicationTests - Starting MallApplicationTests on houmaolong with PID 13756 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-13 21:48:26.249 [main] c.x.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-13 21:48:27.355 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:48:27.361 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:48:27.468 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:48:27.471 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:48:27.472 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:48:27.500 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:48:27.504 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:48:27.783 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 273ms. Found 2 repository interfaces.
+[INFO ] 2018-12-13 21:48:27.808 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-13 21:48:27.811 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-13 21:48:27.867 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-13 21:48:27.868 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-13 21:48:27.869 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+[INFO ] 2018-12-13 21:48:29.317 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-13 21:48:29.497 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-13 21:48:29.503 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-13 21:48:29.929 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-13 21:48:30.700 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-13 21:48:30.977 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-13 21:48:31.009 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-13 21:48:34.101 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2d70f312'
+[INFO ] 2018-12-13 21:48:34.111 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:48:34.948 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-13 21:48:38.020 [main] c.x.mall.MallApplicationTests - Started MallApplicationTests in 12.403 seconds (JVM running for 15.304)
+[INFO ] 2018-12-13 21:48:38.393 [Thread-2] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-13 21:48:38.400 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-13 21:48:38.413 [Thread-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

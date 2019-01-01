@@ -1,0 +1,774 @@
+[INFO ] 2018-12-16 13:23:37.556 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 7824 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 13:23:37.562 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 13:23:39.632 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:23:39.638 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:23:39.766 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:23:39.770 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:23:39.772 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:23:39.797 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:23:39.801 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:23:40.277 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 469ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 13:23:40.361 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:23:40.375 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:23:40.503 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:23:40.504 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:23:40.504 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:23:41.625 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a57bee3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 13:23:42.660 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2018-12-16 13:23:42.690 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2018-12-16 13:23:42.709 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 13:23:42.709 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 13:23:42.733 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 13:23:43.200 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 13:23:43.200 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5471 ms
+[INFO ] 2018-12-16 13:23:43.826 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 13:23:44.124 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 13:23:44.128 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 13:23:44.560 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 13:23:44.985 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 13:23:45.296 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 13:23:45.336 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 13:23:47.999 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7dd91ffc'
+[INFO ] 2018-12-16 13:23:48.004 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 13:23:48.922 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 13:23:49.610 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 13:23:52.035 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2018-12-16 13:23:52.042 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 13:23:52.104 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2018-12-16 13:23:52.111 [main] com.xiaopixiong.mall.MallApplication - Started MallApplication in 15.562 seconds (JVM running for 18.315)
+[INFO ] 2018-12-16 13:24:23.526 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2018-12-16 13:24:23.530 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2018-12-16 13:24:23.551 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+[INFO ] 2018-12-16 13:30:21.278 [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2018-12-16 13:30:21.327 [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 13:30:21.336 [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 13:30:21.371 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 13:30:21.418 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-16 13:30:45.047 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 23400 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 13:30:45.052 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 13:30:46.754 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:30:46.759 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:30:46.837 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:30:46.841 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:30:46.842 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:30:46.859 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:30:46.863 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:30:47.179 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 307ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 13:30:47.206 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:30:47.208 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:30:47.260 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:30:47.261 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:30:47.262 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:30:48.124 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f6fe93db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 13:30:48.950 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (https)
+[INFO ] 2018-12-16 13:30:48.974 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:30:48.983 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 13:30:48.984 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 13:30:49.003 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 13:30:49.435 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 13:30:49.435 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4212 ms
+[INFO ] 2018-12-16 13:30:49.901 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 13:30:50.090 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 13:30:50.094 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 13:30:50.426 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 13:30:50.787 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 13:30:51.066 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 13:30:51.090 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 13:30:53.437 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2e7bb00e'
+[INFO ] 2018-12-16 13:30:53.442 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 13:30:54.337 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 13:30:55.000 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 13:30:57.145 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:30:57.285 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 13:30:57.310 [main] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:30:57.313 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2018-12-16 13:30:57.363 [main] o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[INFO ] 2018-12-16 13:30:57.365 [main] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:30:57.368 [main] o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:30:57.379 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-16 13:30:57.451 [main] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 13:30:57.452 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 13:30:57.458 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 13:30:57.471 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-16 13:31:42.207 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 11692 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 13:31:42.213 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 13:31:43.934 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:31:43.939 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:31:44.018 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:31:44.021 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:31:44.022 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:31:44.047 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:31:44.051 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:31:44.308 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 253ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 13:31:44.333 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:31:44.335 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:31:44.400 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:31:44.400 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:31:44.400 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:31:45.240 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54ded753] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 13:31:46.236 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (https)
+[INFO ] 2018-12-16 13:31:46.260 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:31:46.270 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 13:31:46.271 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 13:31:46.290 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 13:31:46.732 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 13:31:46.732 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4411 ms
+[INFO ] 2018-12-16 13:31:47.269 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 13:31:47.539 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 13:31:47.544 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 13:31:47.897 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 13:31:48.285 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 13:31:48.578 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 13:31:48.604 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 13:31:51.295 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@33e50ff2'
+[INFO ] 2018-12-16 13:31:51.299 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 13:31:52.214 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 13:31:52.810 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 13:31:54.918 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:31:55.029 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 13:31:55.060 [main] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:31:55.067 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2018-12-16 13:31:55.108 [main] o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[INFO ] 2018-12-16 13:31:55.109 [main] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:31:55.113 [main] o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:31:55.119 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-16 13:31:55.157 [main] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 13:31:55.162 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 13:31:55.170 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 13:31:55.189 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-16 13:32:21.715 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 19060 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 13:32:21.720 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 13:32:23.412 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:32:23.418 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:32:23.514 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:32:23.519 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:32:23.520 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:32:23.541 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:32:23.546 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:32:23.932 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 379ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 13:32:23.979 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:32:23.985 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:32:24.059 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:32:24.062 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:32:24.062 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:32:24.996 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f6fe93db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 13:32:25.861 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-16 13:36:12.902 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 9700 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 13:36:12.907 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 13:36:14.726 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:36:14.734 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:36:14.813 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:36:14.817 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:36:14.818 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:36:14.833 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:36:14.837 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:36:15.079 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 236ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 13:36:15.106 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:36:15.109 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:36:15.160 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:36:15.160 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:36:15.160 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:36:16.607 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7dfeb1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 13:36:17.582 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-16 13:37:12.732 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 22584 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 13:37:12.738 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 13:37:14.543 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:37:14.548 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:37:14.630 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:37:14.633 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:37:14.636 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:37:14.654 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:37:14.658 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:37:14.908 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 244ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 13:37:14.937 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:37:14.940 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:37:14.999 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:37:14.999 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:37:14.999 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:37:15.763 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$72c0dea7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 13:37:16.520 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-16 13:38:43.304 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 24260 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 13:38:43.310 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 13:38:45.203 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:38:45.208 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:38:45.295 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:38:45.298 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:38:45.300 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:38:45.322 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:38:45.326 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:38:45.774 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 441ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 13:38:45.809 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:38:45.812 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:38:45.878 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:38:45.878 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:38:45.878 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:38:46.869 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$321c4db3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 13:38:47.786 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-16 13:41:42.201 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 16364 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 13:41:42.207 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 13:41:43.845 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:41:43.850 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:41:43.929 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:41:43.931 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:41:43.932 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:41:43.954 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:41:43.958 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:41:44.286 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 323ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 13:41:44.313 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:41:44.316 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:41:44.362 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:41:44.363 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:41:44.370 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:41:45.287 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffa60ee2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 13:41:46.091 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-16 13:42:07.830 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 10632 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 13:42:07.837 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 13:42:09.582 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:42:09.586 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:42:09.669 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:42:09.672 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:42:09.673 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:42:09.691 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:42:09.695 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:42:09.949 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 247ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 13:42:09.973 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:42:09.975 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:42:10.036 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:42:10.037 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:42:10.037 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:42:10.790 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5706461a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 13:42:11.565 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-16 13:42:42.240 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 14800 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 13:42:42.245 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 13:42:43.985 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:42:43.990 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:42:44.069 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:42:44.072 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:42:44.073 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:42:44.089 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:42:44.093 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:42:44.351 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 250ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 13:42:44.376 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:42:44.379 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:42:44.423 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:42:44.423 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:42:44.423 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:42:45.183 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd712ed9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 13:42:46.054 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (https)
+[INFO ] 2018-12-16 13:42:46.079 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:42:46.091 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 13:42:46.093 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 13:42:46.117 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 13:42:46.550 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 13:42:46.551 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4146 ms
+[INFO ] 2018-12-16 13:42:47.015 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 13:42:47.189 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 13:42:47.193 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 13:42:47.538 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 13:42:47.931 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 13:42:48.206 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 13:42:48.232 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 13:42:50.743 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5f45bc8e'
+[INFO ] 2018-12-16 13:42:50.747 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 13:42:51.695 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 13:42:52.299 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 13:42:54.484 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:42:54.579 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 13:42:54.604 [main] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:42:54.607 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2018-12-16 13:42:54.626 [main] o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[INFO ] 2018-12-16 13:42:54.628 [main] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:42:54.640 [main] o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:42:54.647 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-16 13:42:54.736 [main] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 13:42:54.739 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 13:42:54.746 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 13:42:54.757 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-16 13:43:29.621 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 17720 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 13:43:29.627 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 13:43:31.280 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:43:31.285 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:43:31.362 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:43:31.366 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:43:31.367 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:43:31.384 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:43:31.389 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:43:31.739 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 345ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 13:43:31.769 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 13:43:31.773 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 13:43:31.831 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 13:43:31.833 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 13:43:31.834 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 13:43:32.757 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$26674922] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 13:43:33.589 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (https)
+[INFO ] 2018-12-16 13:43:33.613 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:43:33.622 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 13:43:33.623 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 13:43:33.654 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 13:43:34.088 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 13:43:34.088 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4317 ms
+[INFO ] 2018-12-16 13:43:34.914 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 13:43:35.200 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 13:43:35.205 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 13:43:35.685 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 13:43:36.153 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 13:43:36.483 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 13:43:36.517 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 13:43:39.374 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5731caaf'
+[INFO ] 2018-12-16 13:43:39.379 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 13:43:40.481 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 13:43:41.257 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 13:43:43.968 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 13:43:44.091 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 13:43:44.177 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (https) with context path ''
+[INFO ] 2018-12-16 13:43:44.184 [main] com.xiaopixiong.mall.MallApplication - Started MallApplication in 15.372 seconds (JVM running for 17.395)
+[INFO ] 2018-12-16 13:47:29.956 [https-jsse-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2018-12-16 13:47:29.957 [https-jsse-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2018-12-16 13:47:29.973 [https-jsse-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+[INFO ] 2018-12-16 13:49:30.528 [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2018-12-16 13:49:30.570 [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 13:49:30.575 [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 13:49:30.599 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 13:49:30.613 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-16 14:04:25.078 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 14752 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 14:04:25.084 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 14:04:26.859 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:04:26.865 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:04:26.951 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:04:26.954 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:04:26.955 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:04:26.974 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:04:26.978 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:04:27.223 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 241ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 14:04:27.250 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:04:27.252 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:04:27.296 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:04:27.297 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:04:27.297 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:04:28.028 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef5ffe79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 14:04:28.844 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (https)
+[INFO ] 2018-12-16 14:04:28.867 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 14:04:28.879 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 14:04:28.881 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 14:04:28.907 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 14:04:29.358 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 14:04:29.358 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4135 ms
+[INFO ] 2018-12-16 14:04:29.811 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 14:04:29.987 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 14:04:29.992 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 14:04:30.327 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 14:04:30.703 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 14:04:30.996 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 14:04:31.022 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 14:04:33.473 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@57416e49'
+[INFO ] 2018-12-16 14:04:33.477 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:04:34.534 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 14:04:35.433 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:04:37.671 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8080"]
+[INFO ] 2018-12-16 14:04:37.783 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 14:04:37.838 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (https) with context path ''
+[INFO ] 2018-12-16 14:04:37.847 [main] com.xiaopixiong.mall.MallApplication - Started MallApplication in 13.614 seconds (JVM running for 15.729)
+[INFO ] 2018-12-16 14:07:51.392 [https-jsse-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2018-12-16 14:07:51.394 [https-jsse-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2018-12-16 14:07:51.412 [https-jsse-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+[INFO ] 2018-12-16 14:08:48.663 [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2018-12-16 14:08:48.705 [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:08:48.707 [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:08:48.714 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 14:08:48.724 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-16 14:10:39.910 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 9700 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 14:10:39.914 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 14:10:41.712 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:10:41.717 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:10:41.808 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:10:41.811 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:10:41.812 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:10:41.832 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:10:41.835 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:10:42.079 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 240ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 14:10:42.102 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:10:42.104 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:10:42.166 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:10:42.166 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:10:42.166 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:10:42.927 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$460f456e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 14:10:43.747 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (https)
+[INFO ] 2018-12-16 14:10:43.772 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-80"]
+[INFO ] 2018-12-16 14:10:43.780 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 14:10:43.780 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 14:10:43.799 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 14:10:44.216 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 14:10:44.216 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4151 ms
+[INFO ] 2018-12-16 14:10:44.685 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 14:10:44.889 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 14:10:44.893 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 14:10:45.234 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 14:10:45.655 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 14:10:46.034 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 14:10:46.058 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 14:10:48.603 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7b451bf4'
+[INFO ] 2018-12-16 14:10:48.609 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:10:49.508 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 14:10:50.186 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:10:52.481 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-80"]
+[INFO ] 2018-12-16 14:10:52.607 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 14:10:52.660 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (https) with context path ''
+[INFO ] 2018-12-16 14:10:52.669 [main] com.xiaopixiong.mall.MallApplication - Started MallApplication in 13.605 seconds (JVM running for 15.68)
+[INFO ] 2018-12-16 14:12:21.965 [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2018-12-16 14:12:22.002 [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:12:22.005 [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:12:22.012 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 14:12:22.024 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-16 14:12:43.275 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 13108 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 14:12:43.284 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 14:12:45.539 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:12:45.550 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:12:45.720 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:12:45.725 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:12:45.727 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 160ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:12:45.755 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:12:45.760 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:12:46.100 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 333ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 14:12:46.125 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:12:46.127 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:12:46.172 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:12:46.173 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:12:46.173 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:12:47.482 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$37cbbbd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 14:12:48.481 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (https)
+[INFO ] 2018-12-16 14:12:48.517 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-80"]
+[INFO ] 2018-12-16 14:12:48.527 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 14:12:48.527 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 14:12:48.554 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 14:12:49.190 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 14:12:49.191 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5715 ms
+[INFO ] 2018-12-16 14:12:49.924 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 14:12:50.214 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 14:12:50.219 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 14:12:50.687 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 14:12:51.209 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 14:12:51.577 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 14:12:51.623 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 14:12:54.480 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5cc87de4'
+[INFO ] 2018-12-16 14:12:54.484 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:12:55.549 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 14:12:56.367 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:12:58.826 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-80"]
+[INFO ] 2018-12-16 14:12:58.966 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 14:12:59.030 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (https) with context path ''
+[INFO ] 2018-12-16 14:12:59.035 [main] com.xiaopixiong.mall.MallApplication - Started MallApplication in 16.828 seconds (JVM running for 19.571)
+[INFO ] 2018-12-16 14:14:58.193 [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2018-12-16 14:14:58.193 [RMI TCP Connection(3)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2018-12-16 14:14:58.228 [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:14:58.232 [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:14:58.245 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 14:14:58.263 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-16 14:15:26.433 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 22708 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 14:15:26.439 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 14:15:28.660 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:15:28.667 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:15:28.765 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:15:28.768 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:15:28.769 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:15:28.785 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:15:28.789 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:15:29.063 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 267ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 14:15:29.086 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:15:29.088 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:15:29.133 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:15:29.134 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:15:29.135 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:15:30.150 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$99bcb37e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 14:15:31.061 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (https)
+[INFO ] 2018-12-16 14:15:31.091 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-80"]
+[INFO ] 2018-12-16 14:15:31.099 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 14:15:31.100 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 14:15:31.123 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 14:15:31.602 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 14:15:31.604 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4980 ms
+[INFO ] 2018-12-16 14:15:32.119 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 14:15:32.346 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 14:15:32.351 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 14:15:32.775 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 14:15:33.226 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 14:15:33.537 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 14:15:33.567 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 14:15:36.582 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6d035815'
+[INFO ] 2018-12-16 14:15:36.587 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:15:37.756 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 14:15:38.562 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:15:41.096 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-80"]
+[INFO ] 2018-12-16 14:15:41.232 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 14:15:41.356 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (https) with context path ''
+[INFO ] 2018-12-16 14:15:41.366 [main] com.xiaopixiong.mall.MallApplication - Started MallApplication in 15.925 seconds (JVM running for 18.45)
+[INFO ] 2018-12-16 14:17:21.992 [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2018-12-16 14:17:22.042 [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:17:22.050 [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:17:22.068 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 14:17:22.084 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-16 14:17:38.294 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 2340 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 14:17:38.301 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 14:17:40.618 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:17:40.626 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:17:40.727 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:17:40.732 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:17:40.734 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:17:40.750 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:17:40.753 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:17:41.045 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 286ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 14:17:41.071 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:17:41.075 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:17:41.121 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:17:41.122 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:17:41.123 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:17:42.170 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1f230774] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 14:17:42.970 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (https)
+[INFO ] 2018-12-16 14:17:43.000 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8081"]
+[INFO ] 2018-12-16 14:17:43.014 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 14:17:43.016 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 14:17:43.045 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 14:17:43.568 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 14:17:43.569 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5150 ms
+[INFO ] 2018-12-16 14:17:44.060 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 14:17:44.273 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 14:17:44.278 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 14:17:44.736 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 14:17:45.167 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 14:17:45.468 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 14:17:45.503 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 14:17:48.745 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@13866865'
+[INFO ] 2018-12-16 14:17:48.749 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:17:49.781 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 14:17:50.567 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:17:53.145 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8081"]
+[INFO ] 2018-12-16 14:17:53.273 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 14:17:53.348 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (https) with context path ''
+[INFO ] 2018-12-16 14:17:53.354 [main] com.xiaopixiong.mall.MallApplication - Started MallApplication in 16.009 seconds (JVM running for 18.488)
+[INFO ] 2018-12-16 14:18:18.429 [https-jsse-nio-8081-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2018-12-16 14:18:18.431 [https-jsse-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2018-12-16 14:18:18.454 [https-jsse-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+[INFO ] 2018-12-16 14:18:49.110 [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2018-12-16 14:18:49.172 [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:18:49.180 [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:18:49.203 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 14:18:49.221 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-16 14:19:07.411 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 23828 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 14:19:07.416 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 14:19:09.274 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:19:09.280 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:19:09.362 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:19:09.366 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:19:09.367 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:19:09.387 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:19:09.391 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:19:09.637 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 240ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 14:19:09.664 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:19:09.668 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:19:09.712 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:19:09.714 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:19:09.714 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:19:10.499 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$46cb6f65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 14:19:11.395 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (https)
+[INFO ] 2018-12-16 14:19:11.416 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-80"]
+[INFO ] 2018-12-16 14:19:11.425 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 14:19:11.425 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 14:19:11.443 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 14:19:11.844 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 14:19:11.845 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4342 ms
+[INFO ] 2018-12-16 14:19:12.422 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 14:19:12.617 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 14:19:12.624 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 14:19:12.946 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 14:19:13.364 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 14:19:13.686 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 14:19:13.711 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 14:19:16.155 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@bfe47a8'
+[INFO ] 2018-12-16 14:19:16.161 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:19:17.095 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 14:19:17.772 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:19:19.970 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-80"]
+[INFO ] 2018-12-16 14:19:20.086 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 14:19:20.130 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (https) with context path ''
+[INFO ] 2018-12-16 14:19:20.138 [main] com.xiaopixiong.mall.MallApplication - Started MallApplication in 13.551 seconds (JVM running for 15.636)
+[INFO ] 2018-12-16 14:19:35.029 [https-jsse-nio-80-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2018-12-16 14:19:35.031 [https-jsse-nio-80-exec-6] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2018-12-16 14:19:35.049 [https-jsse-nio-80-exec-6] o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+[INFO ] 2018-12-16 14:25:01.575 [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2018-12-16 14:25:01.616 [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:25:01.625 [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:25:01.640 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 14:25:01.653 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-16 14:25:17.157 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 17544 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 14:25:17.163 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 14:25:18.840 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:25:18.845 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:25:18.941 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:25:18.945 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:25:18.946 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:25:18.972 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:25:18.976 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:25:19.341 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 357ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 14:25:19.370 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:25:19.372 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:25:19.425 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:25:19.425 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:25:19.426 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:25:20.367 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7c6dbe1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 14:25:21.533 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+[INFO ] 2018-12-16 14:25:21.561 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+[INFO ] 2018-12-16 14:25:21.571 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 14:25:21.571 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 14:25:21.597 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 14:25:22.147 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 14:25:22.148 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4895 ms
+[INFO ] 2018-12-16 14:25:22.815 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 14:25:23.088 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 14:25:23.095 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 14:25:23.531 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 14:25:24.011 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 14:25:24.364 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 14:25:24.394 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 14:25:27.034 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@26a45089'
+[INFO ] 2018-12-16 14:25:27.041 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:25:28.094 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 14:25:28.757 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:25:31.112 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+[INFO ] 2018-12-16 14:25:31.249 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 14:25:31.305 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+[INFO ] 2018-12-16 14:25:31.312 [main] com.xiaopixiong.mall.MallApplication - Started MallApplication in 14.981 seconds (JVM running for 17.152)
+[INFO ] 2018-12-16 14:25:51.470 [https-jsse-nio-443-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2018-12-16 14:25:51.473 [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2018-12-16 14:25:51.490 [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+[INFO ] 2018-12-16 14:32:44.540 [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2018-12-16 14:32:44.571 [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:32:44.578 [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:32:44.598 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 14:32:44.613 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2018-12-16 14:33:04.795 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 23308 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 14:33:04.799 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 14:33:06.941 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:33:06.948 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:33:07.077 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:33:07.082 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:33:07.083 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:33:07.118 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:33:07.122 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:33:07.384 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 254ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 14:33:07.410 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:33:07.413 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:33:07.474 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:33:07.475 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:33:07.475 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:33:08.289 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ea2acd5f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 14:33:08.674 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-16 14:33:28.287 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 4404 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 14:33:28.292 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 14:33:30.049 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:33:30.054 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:33:30.135 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:33:30.139 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:33:30.140 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:33:30.157 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:33:30.160 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:33:30.523 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 358ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 14:33:30.559 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:33:30.563 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:33:30.622 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:33:30.625 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:33:30.627 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:33:31.578 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db87b03f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 14:33:31.995 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2018-12-16 14:34:36.147 [main] com.xiaopixiong.mall.MallApplication - Starting MallApplication on houmaolong with PID 15532 (started by houmaolong in C:\Users\houmaolong\Desktop\个人资料\mall)
+[INFO ] 2018-12-16 14:34:36.155 [main] com.xiaopixiong.mall.MallApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-12-16 14:34:38.222 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:34:38.227 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:34:38.314 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:34:38.317 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:34:38.319 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:34:38.338 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:34:38.342 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:34:38.610 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 262ms. Found 2 repository interfaces.
+[INFO ] 2018-12-16 14:34:38.642 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2018-12-16 14:34:38.644 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2018-12-16 14:34:38.689 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.AddressDao.
+[INFO ] 2018-12-16 14:34:38.690 [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xiaopixiong.mall.dao.UserDao.
+[INFO ] 2018-12-16 14:34:38.690 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[INFO ] 2018-12-16 14:34:39.643 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db87b03f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-12-16 14:34:40.643 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+[INFO ] 2018-12-16 14:34:40.669 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+[INFO ] 2018-12-16 14:34:40.679 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-12-16 14:34:40.680 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] 2018-12-16 14:34:40.711 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.4\bin;C:\mysql-5.6.35-winx64\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\oracle\instantclient_11_2;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Local\Programs\Fiddler;C:\Users\houmaolong\AppData\Local\Microsoft\WindowsApps;C:\Users\houmaolong\AppData\Roaming\npm;.]
+[INFO ] 2018-12-16 14:34:41.176 [main] o.a.c.c.C.[.[localhost].[/mall] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-12-16 14:34:41.177 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4860 ms
+[INFO ] 2018-12-16 14:34:41.702 [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] 2018-12-16 14:34:41.902 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2018-12-16 14:34:41.908 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-12-16 14:34:42.303 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-12-16 14:34:42.716 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2018-12-16 14:34:43.011 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2018-12-16 14:34:43.037 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2018-12-16 14:34:45.803 [main] o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18dd7767'
+[INFO ] 2018-12-16 14:34:45.809 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 14:34:46.889 [main] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-12-16 14:34:47.729 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 14:34:50.713 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+[INFO ] 2018-12-16 14:34:50.868 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2018-12-16 14:34:50.936 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path '/mall'
+[INFO ] 2018-12-16 14:34:50.944 [main] com.xiaopixiong.mall.MallApplication - Started MallApplication in 15.817 seconds (JVM running for 18.179)
+[INFO ] 2018-12-16 14:35:19.371 [https-jsse-nio-443-exec-7] o.a.c.c.C.[.[localhost].[/mall] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2018-12-16 14:35:19.372 [https-jsse-nio-443-exec-7] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2018-12-16 14:35:19.414 [https-jsse-nio-443-exec-7] o.s.web.servlet.DispatcherServlet - Completed initialization in 39 ms
+[INFO ] 2018-12-16 22:24:38.140 [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2018-12-16 22:24:38.285 [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2018-12-16 22:24:38.289 [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2018-12-16 22:24:38.327 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2018-12-16 22:24:38.333 [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
