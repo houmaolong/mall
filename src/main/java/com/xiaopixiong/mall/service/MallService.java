@@ -25,4 +25,6 @@ public interface MallService {
 	 */
 	Bidding findById(Long id);
 
+	void bidding(Long id, Integer points);
+
 }

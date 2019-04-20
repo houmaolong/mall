@@ -32,4 +32,9 @@ public class BiddingAPI extends BasicAPI {
 		Bidding bidding=mallService.findById(id);
 		return SUCCESS(bidding);
 	}
+	@RequestMapping(method = RequestMethod.POST)
+	public Map<String, Object> bidding(Long id,Integer points) {
+		 mallService.bidding(id,  points);
+		return SUCCESS();
+	}
 }

@@ -18,6 +18,6 @@ import com.xiaopixiong.mall.domain.Bidding;
 public interface BiddingDao extends Repository<Bidding, Long> {
 	@Query("from Bidding where :now <= endTime")
 	List<Bidding> beingAndFutureBidding(@Param("now") Date now);
-	
+	void save(Bidding bidding);
 	Bidding findById(Long id);
 }

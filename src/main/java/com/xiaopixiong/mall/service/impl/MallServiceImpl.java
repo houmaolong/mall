@@ -8,13 +8,14 @@ import org.springframework.stereotype.Service;
 
 import com.xiaopixiong.mall.dao.BiddingDao;
 import com.xiaopixiong.mall.domain.Bidding;
+import com.xiaopixiong.mall.domain.BiddingHis;
 import com.xiaopixiong.mall.service.MallService;
 
 @Service
 public class MallServiceImpl implements MallService {
 	@Autowired
 	private BiddingDao biddingDao;
-
+	
 	@Override
 	public List<Bidding> beingAndFutureBidding() {
 		return biddingDao.beingAndFutureBidding(new Date());
@@ -23,6 +24,15 @@ public class MallServiceImpl implements MallService {
 	@Override
 	public Bidding findById(Long id) {
 		return biddingDao.findById(id);
+	}
+
+	@Override
+	public void bidding(Long id, Integer points) {
+		Bidding bidding =biddingDao.findById(id);
+		BiddingHis biddingHis=new BiddingHis();
+		biddingHis.setPoints(points);
+		bidding.getBiddingHis().add(biddingHis);
+		biddingDao.save(bidding);
 	}
 
 }
