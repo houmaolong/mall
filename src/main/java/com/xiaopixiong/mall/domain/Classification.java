@@ -8,7 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * 商品分类
+ * 分类
  * 
  * @author houmaolong
  *
