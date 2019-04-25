@@ -15,5 +15,9 @@ import com.xiaopixiong.mall.domain.Classify;
 public interface ClassifyDao extends Repository<Classify, Long> {
 
 	List<Classify> findAll();
+
+	void save(Classify classify);
+
+	Classify findById(long id);
 	 
 }
