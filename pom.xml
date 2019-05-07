@@ -9,7 +9,7 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.xiaopixiong</groupId>
+	<groupId>com.lanpi</groupId>
 	<artifactId>mall</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -90,10 +90,6 @@
 		<repository>
 			<id>repo2</id>
 			<url>http://repo2.maven.org/maven2/</url>
-		</repository>
-		<repository>
-			<id>nexus-local</id>
-			<url>http://192.168.1.168:8081/nexus/content/groups/public/</url>
 		</repository>
 	</repositories>
 	<build>
