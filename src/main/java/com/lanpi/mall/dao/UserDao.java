@@ -1,8 +1,8 @@
-package com.xiaopixiong.mall.dao;
+package com.lanpi.mall.dao;
 
 import org.springframework.data.repository.Repository;
 
-import com.xiaopixiong.mall.domain.User;
+import com.lanpi.mall.domain.User;
 
 /**
  * 数据持久层操作接口

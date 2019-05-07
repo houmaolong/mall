@@ -1,10 +1,10 @@
-package com.xiaopixiong.mall.dao;
+package com.lanpi.mall.dao;
 
 import java.util.List;
 
 import org.springframework.data.repository.Repository;
 
-import com.xiaopixiong.mall.domain.Classify;
+import com.lanpi.mall.domain.Classify;
 
 /**
  * 数据持久层操作接口

@@ -1,11 +1,11 @@
-package com.xiaopixiong.mall.dao;
+package com.lanpi.mall.dao;
 
 import java.util.List;
 
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.repository.Repository;
 
-import com.xiaopixiong.mall.domain.Goods;
+import com.lanpi.mall.domain.Goods;
 
 /**
  * 数据持久层操作接口
