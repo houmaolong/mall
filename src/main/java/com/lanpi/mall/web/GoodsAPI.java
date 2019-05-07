@@ -1,4 +1,4 @@
-package com.xiaopixiong.mall.web;
+package com.lanpi.mall.web;
 
 import java.util.List;
 import java.util.Map;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.xiaopixiong.mall.domain.Classify;
-import com.xiaopixiong.mall.domain.Goods;
-import com.xiaopixiong.mall.service.GoodsService;
+import com.lanpi.mall.domain.Classify;
+import com.lanpi.mall.domain.Goods;
+import com.lanpi.mall.service.GoodsService;
 
 /**
  * 商品

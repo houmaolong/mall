@@ -1,4 +1,4 @@
-package com.xiaopixiong.mall.web;
+package com.lanpi.mall.web;
 
 import java.util.Map;
 

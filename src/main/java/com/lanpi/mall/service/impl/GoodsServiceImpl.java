@@ -1,4 +1,4 @@
-package com.xiaopixiong.mall.service.impl;
+package com.lanpi.mall.service.impl;
 
 import java.util.List;
 
@@ -12,11 +12,11 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
 import com.google.common.collect.Lists;
-import com.xiaopixiong.mall.dao.ClassifyDao;
-import com.xiaopixiong.mall.dao.GoodsDao;
-import com.xiaopixiong.mall.domain.Classify;
-import com.xiaopixiong.mall.domain.Goods;
-import com.xiaopixiong.mall.service.GoodsService;
+import com.lanpi.mall.dao.ClassifyDao;
+import com.lanpi.mall.dao.GoodsDao;
+import com.lanpi.mall.domain.Classify;
+import com.lanpi.mall.domain.Goods;
+import com.lanpi.mall.service.GoodsService;
 
 @Service
 public class GoodsServiceImpl implements GoodsService {

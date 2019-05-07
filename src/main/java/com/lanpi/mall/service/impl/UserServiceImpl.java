@@ -1,15 +1,15 @@
-package com.xiaopixiong.mall.service.impl;
+package com.lanpi.mall.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.xiaopixiong.mall.dao.AddressDao;
-import com.xiaopixiong.mall.dao.UserDao;
-import com.xiaopixiong.mall.domain.Address;
-import com.xiaopixiong.mall.domain.User;
-import com.xiaopixiong.mall.service.UserService;
+import com.lanpi.mall.dao.AddressDao;
+import com.lanpi.mall.dao.UserDao;
+import com.lanpi.mall.domain.Address;
+import com.lanpi.mall.domain.User;
+import com.lanpi.mall.service.UserService;
 @Service
 public class UserServiceImpl implements UserService {
 	@Autowired

@@ -1,9 +1,9 @@
-package com.xiaopixiong.mall.service;
+package com.lanpi.mall.service;
 
 import java.util.List;
 
-import com.xiaopixiong.mall.domain.Classify;
-import com.xiaopixiong.mall.domain.Goods;
+import com.lanpi.mall.domain.Classify;
+import com.lanpi.mall.domain.Goods;
 
 /**
  * 商城管理

@@ -1,4 +1,4 @@
-package com.xiaopixiong.mall.service.impl;
+package com.lanpi.mall.service.impl;
 
 import java.util.Date;
 import java.util.List;
@@ -6,10 +6,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.xiaopixiong.mall.dao.BiddingDao;
-import com.xiaopixiong.mall.domain.Bidding;
-import com.xiaopixiong.mall.domain.BiddingHis;
-import com.xiaopixiong.mall.service.MallService;
+import com.lanpi.mall.dao.BiddingDao;
+import com.lanpi.mall.domain.Bidding;
+import com.lanpi.mall.domain.BiddingHis;
+import com.lanpi.mall.service.MallService;
 
 @Service
 public class MallServiceImpl implements MallService {

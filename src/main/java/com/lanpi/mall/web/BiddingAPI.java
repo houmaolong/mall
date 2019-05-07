@@ -1,4 +1,4 @@
-package com.xiaopixiong.mall.web;
+package com.lanpi.mall.web;
 
 import java.util.List;
 import java.util.Map;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.xiaopixiong.mall.domain.Bidding;
-import com.xiaopixiong.mall.service.MallService;
+import com.lanpi.mall.domain.Bidding;
+import com.lanpi.mall.service.MallService;
 
 /**
  * 竞价API

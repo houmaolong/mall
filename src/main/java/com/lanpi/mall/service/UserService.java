@@ -1,9 +1,9 @@
-package com.xiaopixiong.mall.service;
+package com.lanpi.mall.service;
 
 import java.util.List;
 
-import com.xiaopixiong.mall.domain.Address;
-import com.xiaopixiong.mall.domain.User;
+import com.lanpi.mall.domain.Address;
+import com.lanpi.mall.domain.User;
 /**
  * 用户管理
  * @author houmaolong

@@ -1,4 +1,4 @@
-package com.xiaopixiong.mall;
+package com.lanpi.mall;
 
 import java.io.File;
 import java.util.List;
@@ -10,13 +10,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.google.common.collect.Lists;
+import com.lanpi.mall.dao.ClassifyDao;
+import com.lanpi.mall.domain.Address;
+import com.lanpi.mall.domain.Classify;
+import com.lanpi.mall.domain.Image;
+import com.lanpi.mall.domain.User;
+import com.lanpi.mall.service.UserService;
 import com.xiaoleilu.hutool.lang.Base64;
-import com.xiaopixiong.mall.dao.ClassifyDao;
-import com.xiaopixiong.mall.domain.Address;
-import com.xiaopixiong.mall.domain.Classify;
-import com.xiaopixiong.mall.domain.Image;
-import com.xiaopixiong.mall.domain.User;
-import com.xiaopixiong.mall.service.UserService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

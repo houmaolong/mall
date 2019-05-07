@@ -1,8 +1,8 @@
-package com.xiaopixiong.mall.service;
+package com.lanpi.mall.service;
 
 import java.util.List;
 
-import com.xiaopixiong.mall.domain.Bidding;
+import com.lanpi.mall.domain.Bidding;
 
 /**
  * 商城管理
